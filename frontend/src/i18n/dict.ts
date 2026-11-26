@@ -24,7 +24,7 @@ export const WORDS: [string, string, string][] = [
   ['Kirish →', 'Войти →', 'Sign in →'], ['Kirish', 'Войти', 'Sign in'], ['Yozish', 'Записать', 'Record'], ['Yuborish', 'Отправить', 'Send'], ['Ochish', 'Открыть', 'Open'],
   // Kirish sahifasi
   ['Xush kelibsiz', 'Добро пожаловать', 'Welcome'], ['Login', 'Логин', 'Login'], ['Parol', 'Пароль', 'Password'], ['Loginni kiriting', 'Введите логин', 'Enter login'], ['Parolingizni kiriting', 'Введите пароль', 'Enter password'],
-  ['O‘qishni davom ettirish uchun hisobingizga kiring.', 'Войдите, чтобы продолжить обучение.', 'Sign in to continue learning.'], ['Skills Up · Learning management platform', 'Skills Up · Платформа управления обучением', 'Skills Up · Learning management platform'],
+  ['O‘qishni davom ettirish uchun hisobingizga kiring.', 'Войдите, чтобы продолжить обучение.', 'Sign in to continue learning.'], ['Eduvia · Learning management platform', 'Eduvia · Платформа управления обучением', 'Eduvia · Learning management platform'],
   // Dashboard
   ['Kumush', 'Серебро', 'Silver'], ['Bosqich', 'Уровень', 'Level'], ['Kunlik seriya', 'Серия дней', 'Daily streak'], ["Umumiy o'rin", 'Общее место', 'Overall rank'], ['Bosqich progressi', 'Прогресс уровня', 'Level progress'],
   ["Guruhlardagi o'rin", 'Место в группах', 'Rank in groups'], ['Yaqin hodisalar', 'Ближайшие события', 'Upcoming events'], ["So'nggi faoliyat", 'Последняя активность', 'Recent activity'],

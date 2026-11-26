@@ -1,4 +1,4 @@
-# Skills Up backend
+# Eduvia backend
 
 O'quv markazi platformasi uchun REST API. NestJS, TypeScript, PostgreSQL, TypeORM.
 Hamma qoida va raqam `backend_structure.pdf` hujjatidan olingan.
@@ -242,9 +242,9 @@ Hamma endpointning aniq body va parametrlari Swagger da.
 
 ### Localstorage dan APIga o'tish
 
-- `skillsup:session` o'rniga token va refreshToken
-- `skillsup:preferences` o'rniga `GET` va `PUT /me/settings`
-- `skillsup:lessons`, `skillsup:teacher`, `skillsup:exams`, `skillsup:admin` o'rniga yuqoridagi endpointlar
+- `eduvia:session` o'rniga token va refreshToken
+- `eduvia:preferences` o'rniga `GET` va `PUT /me/settings`
+- `eduvia:lessons`, `eduvia:teacher`, `eduvia:exams`, `eduvia:admin` o'rniga yuqoridagi endpointlar
 - Demo parol xeshini (SHA-256) frontenddan olib tashlang. Parol faqat serverga yuboriladi.
 
 ### Fetch uchun namuna

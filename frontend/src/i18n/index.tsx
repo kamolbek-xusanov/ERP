@@ -8,7 +8,7 @@ export const LANGS: { code: Lang; label: string; name: string }[] = [
   { code: 'en', label: 'EN', name: 'English' },
 ];
 
-const KEY = 'skillsup:lang';
+const KEY = 'eduvia:lang';
 const TABLE: Record<Lang, Map<string, string>> = { uz: new Map(), ru: new Map(), en: new Map() };
 WORDS.forEach(([uz, ru, en]) => {
   TABLE.ru.set(uz, ru);

@@ -2,15 +2,15 @@ services:
   db:
     image: postgres:16-alpine
     environment:
-      POSTGRES_USER: skillsup
-      POSTGRES_PASSWORD: skillsup
-      POSTGRES_DB: skillsup
+      POSTGRES_USER: eduvia
+      POSTGRES_PASSWORD: eduvia
+      POSTGRES_DB: eduvia
     ports:
       - "5432:5432"
     volumes:
-      - skillsup_pg:/var/lib/postgresql/data
+      - eduvia_pg:/var/lib/postgresql/data
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U skillsup"]
+      test: ["CMD-SHELL", "pg_isready -U eduvia"]
       interval: 5s
       timeout: 3s
       retries: 10
@@ -22,7 +22,7 @@ services:
     environment:
       NODE_ENV: development
       PORT: 3000
-      DATABASE_URL: postgres://skillsup:skillsup@db:5432/skillsup
+      DATABASE_URL: postgres://eduvia:eduvia@db:5432/eduvia
       DB_SYNC: "true"
       JWT_ACCESS_SECRET: change-me-access-secret-min-32-chars
       JWT_REFRESH_SECRET: change-me-refresh-secret-min-32-chars
@@ -31,7 +31,7 @@ services:
     ports:
       - "3000:3000"
     volumes:
-      - skillsup_uploads:/app/uploads
+      - eduvia_uploads:/app/uploads
 volumes:
-  skillsup_pg:
-  skillsup_uploads:
+  eduvia_pg:
+  eduvia_uploads:

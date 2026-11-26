@@ -1,7 +1,7 @@
 const BASE: string = import.meta.env.VITE_API_URL ?? 'http://localhost:3000/api/v1';
 
-const ACCESS = 'skillsup:token';
-const REFRESH = 'skillsup:refresh';
+const ACCESS = 'eduvia:token';
+const REFRESH = 'eduvia:refresh';
 
 export const tokens = {
   get access() {

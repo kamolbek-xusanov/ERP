@@ -1,6 +1,6 @@
-# Skills Up frontend
+# Eduvia frontend
 
-React + TypeScript frontend. Backend (`skillsup-backend`) bilan REST orqali ishlaydi.
+React + TypeScript frontend. Backend (`eduvia-backend`) bilan REST orqali ishlaydi.
 Hozir sahifalar to'liq ishlaydi, lekin dizayn sodda holatda. Dizayn keyin qo'yiladi.
 
 ## Ishga tushirish

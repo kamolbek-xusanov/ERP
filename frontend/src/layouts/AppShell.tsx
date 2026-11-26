@@ -412,10 +412,10 @@ export function AppShell({ items }: { items?: NavItem[] }) {
           <div className="topbar-brand">
             <IconButton icon="menu" label="Menyuni ochish" className="mobile-menu" aria-expanded={drawer} onClick={() => setDrawer(true)} />
             <GlideLink to={home} className="brand">
-              <span className="brand-mark">SU</span>
+              <span className="brand-mark">E</span>
               <span>
                 <span className="brand-name">
-                  Skills<span>Up</span>
+                  Edu<span>via</span>
                 </span>
                 <span className="brand-sub">EDUCATION PLATFORM</span>
               </span>
@@ -443,9 +443,9 @@ export function AppShell({ items }: { items?: NavItem[] }) {
             <aside className="drawer" aria-label="Menyu">
               <div className="drawer-top">
                 <span className="brand">
-                  <span className="brand-mark">SU</span>
+                  <span className="brand-mark">E</span>
                   <span className="brand-name">
-                    Skills<span>Up</span>
+                    Edu<span>via</span>
                   </span>
                 </span>
                 <IconButton icon="close" label="Yopish" onClick={() => setDrawer(false)} />
